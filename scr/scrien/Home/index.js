@@ -67,6 +67,7 @@ class Home extends React.Component {
             onPress={() => this.keluar()}>
             Keluar
           </Text>
+    <Button <i class="fa fa-toggle-on" aria-hidden="true" onclick="myFunction()"float="right">DarkMode</i></Button>
         </View>
       </View>
     );
