@@ -2,10 +2,6 @@ import React from 'react';
 import {View, Text, Button, TextInput, ScrollView} from 'react-native';
 
 class Home extends React.Component {
-  function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-}
   state = {
     data: [],
     imput: '',
@@ -71,7 +67,6 @@ class Home extends React.Component {
             onPress={() => this.keluar()}>
             Keluar
           </Text>
-    <Button <i class="fa fa-toggle-on" aria-hidden="true" onclick="myFunction()"float="right">DarkMode</i></Button>
         </View>
       </View>
     );
