@@ -2,6 +2,10 @@ import React from 'react';
 import {View, Text, Button, TextInput, ScrollView} from 'react-native';
 
 class Home extends React.Component {
+  function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
   state = {
     data: [],
     imput: '',
